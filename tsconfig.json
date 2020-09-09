@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "useDefineForClassFields": false,
+    "baseUrl": ".",
+    "paths": {
+        "*": ["node_modules/*", "app/javascript/*"]
+    },
+    "sourceMap": true,
+    "target": "es6"
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "vendor",
+    "public"
+  ],
+  "compileOnSave": false
+}
